@@ -15,7 +15,8 @@ body {
 
 #layout-menu {
 	background: #ffffff;
-	border: 1px solid #ffffff;
+	/*border: 1px solid #ffffff;*/
+	border: none;
 	padding-top: 0.5em;
 	padding-left: 16px;
 	padding-right: 16px;
