@@ -27,6 +27,20 @@ body {
     vertical-align: top;
 }
 
+#menu-mobile {
+	background: #ffffff;
+	/*border: 1px solid #ffffff;*/
+	border: none;
+	padding-top: 0.5em;
+	padding-left: 16px;
+	padding-right: 16px;
+	font-size: 1.0em;
+	width: auto;
+	white-space: nowrap;
+    text-align: left;
+    vertical-align: top;
+}
+
 #layout-menu td {
 	background: #f4f4f4;
     vertical-align: top;
@@ -346,7 +360,7 @@ td {
     padding-left: 0.5em;
     padding-right: 0.5em;
     text-align: center;
-    border: 1px solid gray;
+    border: none;
 }
 
 table + table {
@@ -360,9 +374,27 @@ tr.heading {
 
 img {
     border: none;
+	width:60%;
+	height:auto;
 }
 
 table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
+}
+
+@media (max-width: 640px){
+	#layout-menu{
+		display: none;
+	}
+	img{
+		width:100%
+	}
+
+}
+
+@media (min-width: 640px){
+	#menu-mobile{
+    display: none;
+  }
 }
