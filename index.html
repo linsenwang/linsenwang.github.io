@@ -8,7 +8,7 @@
     :root { 
      box-sizing: border-box; 
      --sidebar-width: 150px;
-     font-family: Palatino linotype, serif;
+     font-family: Palatino linotype, simsun,serif;
     } 
 
     *, 
@@ -50,6 +50,12 @@
         border-bottom: solid 1px #ccc;
         color: #841212;
     }
+    .contenta > .header{
+        font-size: 1.5em;
+        border: none;
+        border-top: solid #f7f7f7;
+        padding-top:   1em;
+    }
     .head{
         border-bottom: solid 1px #ccc;
         color: #000;
@@ -59,6 +65,8 @@
     }
     .item{
         padding-left: 1em;
+        
+        padding-bottom: .1em;
     }
     .head + .item{
         padding-top: 0.2rem;
@@ -91,6 +99,21 @@
         max-width: 400px;
         flex: 2;
         border-radius: 0.5em;
+        margin-bottom: 1em;
+    }
+    a > img{
+        width: 100%;
+    }
+    .img{
+        border-bottom: solid #f7f7f7;
+        padding-bottom: 0.5em;
+        margin: 0 10%;
+    }
+    .contenta > .img{
+        margin-bottom: 1em;
+    }
+    p + a{
+        margin-top: 1em;
     }
     a:link{
         color: #841212;
@@ -185,7 +208,7 @@
 
         <div class="content">
             <div class="header">
-                Linsen Wang
+                <a href="http://linsenwang.com/">Linsen Wang</a>
             </div>
             <div class="contenta">
                 <p>Undergraduate<br />
@@ -195,9 +218,60 @@
             <div class="contenta">
                 <div class="fill">
                 </div>
-                <img src="merlin.jpg"/>
+                <div>
+                    <img src="merlin.jpg"/>
+                </div>
                 <div class="fill">
                 </div>
+            </div>
+            <div class="contenta">
+                <div class="header">
+                    <a href="./playground">Playground</a>
+                </div>
+
+                <p>Percolation: a Mathematical Phase Transition
+                    <a href="https://www.bilibili.com/video/BV1op4y1E7qM">@bilibili</a>
+                </p>
+
+                <div class="img">
+                    <a href="https://www.bilibili.com/video/BV1op4y1E7qM"><img src="pg1.webp"/></a>
+                </div>
+            </div>
+
+            <div class="contenta">
+                <p>Starship | Second Integrated Flight Test
+                    <a href="https://www.bilibili.com/video/BV1DC4y1j7QE">@bilibili</a>
+                </p>
+                <div class="img">
+                    <a href="https://www.bilibili.com/video/BV1DC4y1j7QE"><img src="pg2.webp"/></a>
+                </div>
+            </div>
+
+            <div class="contenta">
+                <p>
+                    <a href="./playground">More -></a>
+                </p>
+            </div>
+
+
+            <div class="contenta">
+                <div class="header">
+                    <a href="./courses">Courses</a>
+                </div>
+
+                <p>Twenty-five lectures on macroeconomics :<br /> A Chinese Perspective
+                    <a href="https://www.bilibili.com/video/BV1oE411Z7TU">@bilibili</a>
+                </p>
+
+                <div class="img">
+                    <a href="https://www.bilibili.com/video/BV1oE411Z7TU"><img src="cr1.jpg"/></a>
+                </div>
+            </div>
+
+            <div class="contenta">
+                <p>
+                    <a href="./courses">More -></a>
+                </p>
             </div>
         </div>
 
