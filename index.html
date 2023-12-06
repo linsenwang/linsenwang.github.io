@@ -12,6 +12,7 @@
      box-sizing: border-box; 
      --sidebar-width: 150px;
      font-family: Palatino linotype, palatino, simsun,serif;
+     font-size: 18px;
     } 
     
     *, 
@@ -50,17 +51,22 @@
         font-size: 2em;
         margin-top: 0.5em;
         padding-bottom: 0.5em;
-        border-bottom: solid 1px #f7f7f7;
+        border-bottom: solid 1px #ddd;
         color: #841212;
+    }
+    #top{
+        width: 80%;
+        margin: auto;
+        margin-top: 0.5em;
     }
     .contenta > .header{
         font-size: 1.5em;
         border: none;
-        border-top: solid #f7f7f7 1px;
+        border-top: solid #ddd 1px;
         padding-top:   1em;
     }
     .head{
-        border-bottom: solid 1px #f7f7f7;
+        border-bottom: solid 1px #ddd;
         color: #000;
         padding-left: 1rem;
         padding-bottom: 0.2rem;
@@ -102,12 +108,13 @@
         flex: 2;
         border-radius: 0.5em;
         margin-bottom: 1em;
+        border: solid 1px #ddd;
     }
     a > img{
         width: 100%;
     }
     .img{
-        border-bottom: solid #f7f7f7 1px;
+        border-bottom: solid #ddd 1px;
         padding-bottom: 0.5em;
         margin: 0 10%;
     }
@@ -140,6 +147,7 @@
         padding: 0;
         padding: 0.5em;
         border: none;
+        border-top: solid 1px #ddd;
     }
     .mobile > .sidebar-item > .item{
         padding: 0;
@@ -164,10 +172,7 @@
         padding-right: 10%;
         }
         body{
-            background: linear-gradient(#fff 0%,#f7f7f7 0.001%);
-        }
-        :root{
-            font-size: 18px;
+            background: linear-gradient(#fff 99.999%,#f7f7f7 99.9991%);
         }
     }
     @media (min-width: 734px){
@@ -210,7 +215,7 @@
         </div>
 
         <div class="content">
-            <div class="header">
+            <div class="header" id="top">
                 <a href="http://linsenwang.com/">Linsen Wang</a>
             </div>
             <div class="contenta">
