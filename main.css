@@ -142,18 +142,26 @@ a:visited{
     background-color: #f7f7f7;
     display: block;
     bottom: 0;
-    margin-top: 0.2em;
     padding-bottom: 1.5em;
+    border-top: solid 1px #ddd;
 }
 .mobile > .sidebar-item > .head{
+    font-size: 1.2rem;
     padding: 0;
-    padding: 1em;
+    padding: 1rem;
     border: none;
-    border-top: solid 1px #ddd;
+    border-bottom: solid 1px #ddd;
+    width: 80%;
+    margin: 0 auto 0.5rem;
 }
 .mobile > .sidebar-item > .item{
     padding: 0;
-    padding-bottom: 0.2em;
+    padding-top: 0.5em;
+    width: 80%;
+    margin: auto;
+}
+.mobile > .head + .item{
+    border: solid;
 }
 @media (max-width: 734px){
     .sidebar{
