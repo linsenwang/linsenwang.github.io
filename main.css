@@ -110,7 +110,8 @@ a > img{
 .img{
     border-bottom: solid #ddd 1px;
     padding-bottom: 0.5em;
-    margin: 0 10%;
+    margin: 0 auto;
+    max-width: 400px;
 }
 .contenta > .img{
     margin-bottom: 1em;
