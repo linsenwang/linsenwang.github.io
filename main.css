@@ -119,6 +119,9 @@ a > img{
 .img + .contenta{
     border: none;
 }
+.img + .img{
+    margin-top: 1.5em;
+}
 p + a{
     margin-top: 1em;
 }
