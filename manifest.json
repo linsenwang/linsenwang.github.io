@@ -1,0 +1,21 @@
+{
+    "name": "linsenwang",
+    "short_name": "linsenwang",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "A simply readable Hacker News app.",
+    "icons": [
+      {
+        "src": "/projects/wise/1.6.png",
+        "sizes": "1080x1080",
+        "type": "image/png"
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "web"
+      }
+    ]
+  }
+  
