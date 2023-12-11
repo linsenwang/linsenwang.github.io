@@ -5,7 +5,7 @@
 :root { 
  box-sizing: border-box; 
  --sidebar-width: 150px;
- font-family: Palatino linotype, palatino, simsun,serif;
+ font-family: Palatino linotype, palatino, 思源宋体 semibold,simsun,serif;
  font-size: 18px;
 } 
 
@@ -98,20 +98,21 @@ body{
     background-color: #fff;
     flex: 1;
 }
+
+
 img{
     width: 100%;
     margin: auto;
     max-width: 400px;
     flex: 2;
     border-radius: 0.5em;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     border: solid 1px #ddd;
 }
 a > img{
     width: 100%;
 }
 .img{
-    padding-bottom: 0.5em;
     margin: 0 auto;
     max-width: 400px;
     border-bottom: solid 1px #ddd;
@@ -140,6 +141,11 @@ a:hover{
 a:visited{
     color: #841212;
 }
+
+.blog{
+    text-align: justify;
+}
+
 .mobile{
     text-align: center;
     background-color: #f7f7f7;
