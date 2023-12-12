@@ -2,6 +2,11 @@
     font-family: Palatino linotype;
     src: url("./pala.ttf");
   }
+
+@font-face {
+font-family: 思源宋体 semibold;
+src: url("./SourceHanSerifSC-SemiBold.otf");
+}
 :root { 
  box-sizing: border-box; 
  --sidebar-width: 150px;
