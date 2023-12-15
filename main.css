@@ -147,9 +147,7 @@ a:visited{
     color: #841212;
 }
 
-.blog{
-    text-align: justify;
-}
+
 
 .mobile{
     text-align: center;
@@ -205,4 +203,21 @@ a:visited{
     .content{
         height: 100%;
     }
+}
+
+@media (min-width: 1080px){
+    .img{
+        max-width: 500px;
+    }
+    img{
+        max-width: 500px;
+    }
+    p.blog{
+        max-width: 500px;
+    }
+}
+
+p.blog{
+    text-align: justify;
+    padding: 0;
 }
