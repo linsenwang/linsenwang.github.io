@@ -1,17 +1,20 @@
 @font-face {
     font-family: Palatino linotype;
     src: url("./pala.ttf");
+    font-display: swap;
   }
 
 @font-face {
 font-family: 思源宋体 semibold;
 src: url("./SourceHanSerifSC-SemiBold.otf");
+font-display: swap;
 }
 :root { 
  box-sizing: border-box; 
  --sidebar-width: 150px;
  font-family: Palatino linotype, palatino, 思源宋体 semibold,simsun,serif;
  font-size: 18px;
+ font-display: swap;
 } 
 
 *, 
