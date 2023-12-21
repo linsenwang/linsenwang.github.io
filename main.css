@@ -6,7 +6,7 @@
 
 @font-face {
 font-family: 思源宋体 semibold;
-src: url("./SourceHanSerifSC-SemiBold.otf");
+src: url("./SourceHanSerifSC-SemiBold.subset.otf");
 font-display: swap;
 }
 :root { 
