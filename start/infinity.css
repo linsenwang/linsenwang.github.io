@@ -1,23 +1,30 @@
 body {
-    background: #fff;
-    color: #222;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+#main {
+    background: #fff;
+    color: #222;
+    display: block;
+    width: 738px;
 }
 img {
     width: 70px;
     border-radius: 10px;
-    margin: 20px;
+    margin: 15px;
     border: solid #ddd 1px;
-}
-.main {
-    margin: 15%;
 }
 a{
     text-decoration: none;
 }
+
 @media (prefers-color-scheme: dark) {
-    body {
+    #main {
+        background-color: #222;
+        color: #ddd;
+    }
+    body{
         background-color: #222;
         color: #ddd;
     }
@@ -25,3 +32,16 @@ a{
         border: solid #555 1px;
     }
 }
+
+@media only screen and (max-width: 756px) {
+    #main {
+        width: 526px;
+    }
+  }
+
+  @media only screen and (max-width: 756px) {
+    #main {
+        width: 314px;
+        margin-top: 10px;
+    }
+  }
